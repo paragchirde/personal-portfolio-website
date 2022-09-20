@@ -3,8 +3,8 @@
 	import Footer from '$lib/Footer/footer.svelte';
 	import '../app.css';
 </script>
-
-<Header />
+<!-- 
+<Header /> -->
 
 <main class="w-full">
 	<slot />
