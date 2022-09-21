@@ -6,13 +6,29 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Parag Chirde</title>
+	<meta name="title" content="Parag's Portfolio Website" />
+	<meta name="description" content="Parag's portfolio website" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.paragchirde.com/" />
+	<meta property="og:title" content="Parag Chirde" />
+	<meta property="og:description" content="Parag's portfolio website" />
+	<meta property="og:image" content="" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://www.paragchirde.com/" />
+	<meta property="twitter:title" content="Parag Chirde" />
+	<meta property="twitter:description" content="Parag's portfolio website" />
+	<meta property="twitter:image" content="" />
 </svelte:head>
 
 <section class="overflow-hidden 2xl:container">
 	<div class="border ">
 		<!-- Row 1 -->
-		<div class="grid grid-flow-row grid-cols-12 lg:grid-cols-12 border-collapse font-thin">
+		<div class="grid grid-flow-row grid-cols-12 lg:grid-cols-12 border-collapse font-light">
 			<div class=" lg:col-span-2 border-r p-4 bgLines" />
 			<div class="hidden lg:block border-r p-4">Hello, World!</div>
 			<div
@@ -46,13 +62,13 @@
 			<div
 				class="col-span-4 lg:col-span-2 border-r flex flex-row space-x-1 text-xs lg:text-base justify-center items-center bg-yellow-50 text-yellow-500 uppercase font-medium"
 			>
-					<p>#Thoughts</p>
+				<p>#Thoughts</p>
 			</div>
 			<div class=" border-r p-4 bgLines" />
 		</div>
 		<!-- Row 2 -->
 		<div
-			class="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 border-t border-collapse font-thin"
+			class="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 border-t border-collapse font-light"
 		>
 			<div class="lg:col-span-2 border-r p-4" />
 			<div class="border-r p-4 col-span-5 lg:col-span-4 flex flex-col">
@@ -64,10 +80,32 @@
 				</div>
 			</div>
 			<div class="border-r col-span-5 lg:col-span-2 h-full p-4">
-				<div class="flex flex-col">
-					<div class=" bg-red-100 shadow-xl rounded w-full flex flex-col p-2">
-						<div class=" rounded bg-yellow-50 p-3">
-							<p class="text-sm text-rose-600">This is a portfolio website designed using TailwindCSS.</p>
+				<div class="flex flex-col h-full justify-center items-center">
+					<div
+						class=" bg-rose-400 shadow-xl rounded w-full flex flex-col p-2 h-full justify-center items-center"
+					>
+						<div
+							class=" rounded bg-yellow-50 p-3 flex flex-col justify-center items-center text-rose-50"
+						>
+							<p>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="w-6 h-6 "
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"
+									/>
+								</svg>
+							</p>
+							<p class="text-center text-sm lg:text-base font-semibold">
+								Website is under Development
+							</p>
 						</div>
 					</div>
 				</div>
@@ -85,7 +123,7 @@
 			<div class=" border-r p-4 lg:col-span-2" />
 		</div>
 		<!-- Row 3 -->
-		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-thin  auto-rows-max">
+		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light  auto-rows-max">
 			<div class="lg:col-span-2 border-r ">
 				<img
 					class="w-full h-full"
@@ -159,7 +197,7 @@
 			<div />
 		</div>
 		<!-- Row 4 -->
-		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-thin h-16">
+		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light h-16">
 			<div class="col-span-2 border-r" />
 			<div class="" />
 			<div class="border-r  col-span-2 relative">
@@ -174,7 +212,7 @@
 			<div class="border-r col-span-2 p-2 " />
 		</div>
 		<!-- Row 5 -->
-		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-thin auto-rows-max">
+		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light auto-rows-max">
 			<div class="lg:col-span-2 border-r" />
 			<div
 				class="border-l-4 col-span-8 lg:col-span-4 p-4 lg:p-8 bg-red-50 w-full border-rose-400 flex flex-col justify-center items-start text-xs lg:text-lg font-medium text-gray-800 relative"
@@ -182,9 +220,9 @@
 				<p class="font-bold uppercase tracking-wide px-4">
 					Have a <span class="text-rose-400">design</span> idea?
 				</p>
-				<p class="font-thin px-4">So do you have a wonderful design idea in your mind?</p>
+				<p class="font-light px-4">So do you have a wonderful design idea in your mind?</p>
 				<div
-					class="h-12 bg-rose-500 w-full absolute bottom-0 -mb-10 lg:-mb-8 right-0 -mr-4 flex justify-center items-center p-3 text-xs lg:text-sm font-thin text-white z-40"
+					class="h-12 bg-rose-500 w-full absolute bottom-0 -mb-10 lg:-mb-8 right-0 -mr-4 flex justify-center items-center p-3 text-xs lg:text-sm font-light text-white z-40"
 				>
 					It'll take 2 seconds to hit the contact button! <span>
 						<button class="ml-2 bg-amber-300 text-rose-700 px-2 py-1 text-xxs lg:text-xs rounded"
@@ -212,7 +250,7 @@
 			<div class="hidden lg:block border-r col-span-2 p-2 " />
 		</div>
 		<!-- Row 6 -->
-		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-thin h-32">
+		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light h-32">
 			<div class="col-span-2 border-r" />
 			<div class="" />
 			<div class="border-r  col-span-2 relative">
@@ -227,7 +265,7 @@
 			<div class="border-r col-span-2 p-2 " />
 		</div>
 		<!-- Row 7 - Development -->
-		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-thin h-16">
+		<div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light h-16">
 			<div class="lg:col-span-2 border-r" />
 			<div
 				class="bg-indigo-500 col-span-7 lg:col-span-3 w-full flex justify-center items-center text-white"
