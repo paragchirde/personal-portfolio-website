@@ -37,7 +37,7 @@
 				<img
 					src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
 					class="w-5 h-5 object-cover"
-					alt="svelte"
+					alt="hello"
 				/> I am Parag.
 			</div>
 			<div class="hidden lg:block">
