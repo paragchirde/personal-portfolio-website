@@ -23,6 +23,7 @@
 	<meta property="twitter:title" content="Parag Chirde" />
 	<meta property="twitter:description" content="Parag's portfolio website" />
 	<meta property="twitter:image" content="" />
+
 </svelte:head>
 
 <section class="overflow-hidden 2xl:container">

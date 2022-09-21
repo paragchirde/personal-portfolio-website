@@ -1,5 +1,5 @@
 {
-  "name": "test-app",
+  "name": "parag-chirde",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev --host",
@@ -25,9 +25,7 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "gsap": "^3.9.1",
     "svelte-inview": "^3.0.0",
-    "svelte-scrollto": "^0.2.0",
-    "vuesax": "^4.0.1-alpha.25"
+    "svelte-scrollto": "^0.2.0"
   }
 }
