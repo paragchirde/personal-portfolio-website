@@ -36,7 +36,7 @@
 			>
 				<img
 					src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-					class="w-5"
+					class="w-5 h-5 object-cover"
 					alt="svelte"
 				/> I am Parag.
 			</div>
@@ -166,7 +166,7 @@
 				<div class="bg-amber-50/90 p-2 rounded-tr-full h-full">
 					<img
 						src="https://res.cloudinary.com/dqn0fj8ae/image/upload/v1645553220/My-Website/488-bicycle-outline_ug9tew.gif"
-						class="w-32"
+						class="w-32 h-32 object-cover"
 						alt="bicycle"
 					/>
 					<p class="text-sm lg:text-base text-amber-600">
@@ -237,7 +237,7 @@
 						class="border-r h-full col-span-full lg:col-span-2 flex justify-center items-center relative"
 					>
 						<img
-							class="absolute h-full"
+							class="absolute h-full w-full object-cover"
 							src="https://res.cloudinary.com/dqn0fj8ae/image/upload/v1645636937/My-Website/1827-growing-plant-outline_rpvzs2.gif"
 							alt="plant"
 						/>
