@@ -1,6 +1,5 @@
 <script>
 	export let blogs;
-	import BlogCard from '$lib/Cards/Blog.svelte';
 </script>
 
 <div class="grid grid-flow-row grid-cols-12 border-t border-collapse font-light">

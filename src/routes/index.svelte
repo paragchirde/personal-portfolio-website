@@ -4,7 +4,6 @@
 			'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fparagchirde.medium.com%2Ffeed'
 		);
 		const data = await res.json();
-		console.log(data);
 		if (res.ok) {
 			return {
 				props: { blogs: data.items }
