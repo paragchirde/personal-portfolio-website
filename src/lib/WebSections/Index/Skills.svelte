@@ -43,6 +43,13 @@
             </div>
             <!--  -->
             <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+                <p>
+                    <img class="h-4 w-4" src="https://api.iconify.design/logos:react.svg" alt="react js">
+                </p>
+                <p>React JS</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
                 <p><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 32 32"><path fill="#00DC82" d="M17.708 25h10.409a1.89 1.89 0 0 0 1.631-.95a1.913 1.913 0 0 0 0-1.9L22.756 9.936a1.87 1.87 0 0 0-3.261 0l-1.788 3.125l-3.494-6.111a1.871 1.871 0 0 0-3.262 0l-8.7 15.2a1.912 1.912 0 0 0 .69 2.595c.286.167.61.255.941.255h6.534c2.589 0 4.498-1.147 5.811-3.385l3.19-5.572l1.708-2.982l5.127 8.957h-6.835L17.707 25Zm-7.398-2.985l-4.56-.001l6.836-11.942l3.41 5.97l-2.283 3.992c-.873 1.452-1.864 1.981-3.403 1.981Z"/></svg></p>
                 <p>Nuxt</p>
             </div>
@@ -66,6 +73,13 @@
                 <p><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 32 32"><path fill="#ff5d01" fill-rule="evenodd" d="M5.9 18.847a7.507 7.507 0 0 0-.572 2.624a3.265 3.265 0 0 0 .551 1.553a7.427 7.427 0 0 0 2.093 1.681l5.128 3.414a7.332 7.332 0 0 0 2.1 1.168a3.239 3.239 0 0 0 1.5 0a7.381 7.381 0 0 0 2.117-1.16L24 24.711a7.512 7.512 0 0 0 2.117-1.688a3.241 3.241 0 0 0 .55-1.563a7.515 7.515 0 0 0-.587-2.643L21.547 4.551a3.973 3.973 0 0 0-.54-1.3a1.733 1.733 0 0 0-.7-.51a3.972 3.972 0 0 0-1.4-.122h-5.902a3.932 3.932 0 0 0-1.4.125a1.713 1.713 0 0 0-.7.512a3.94 3.94 0 0 0-.535 1.3L5.9 18.848Zm13.24-13.2a3.329 3.329 0 0 1 .441 1.093l3.892 12.784a16.168 16.168 0 0 0-4.653-1.573l-2.529-8.56a.331.331 0 0 0-.513-.169a.323.323 0 0 0-.119.169l-2.5 8.557a16.14 16.14 0 0 0-4.674 1.579l3.908-12.784a3.281 3.281 0 0 1 .442-1.094a1.458 1.458 0 0 1 .582-.43a3.31 3.31 0 0 1 1.175-.1h2.793a3.314 3.314 0 0 1 1.176.1a1.454 1.454 0 0 1 .583.432ZM16.127 21.06a5.551 5.551 0 0 0 3.4-.923a2.8 2.8 0 0 1-.207 2.182a3.938 3.938 0 0 1-1.547 1.481c-.674.428-1.254.8-1.254 1.787a2.079 2.079 0 0 0 .209.914a2.49 2.49 0 0 1-1.535-2.3v-.061c0-.683 0-1.524-.962-1.524a1.028 1.028 0 0 0-.391.077a1.021 1.021 0 0 0-.552.551a1.03 1.03 0 0 0-.079.391a3.769 3.769 0 0 1-.988-2.644a4.206 4.206 0 0 1 .175-1.248c.4.757 1.92 1.32 3.731 1.32Z"/></svg></p>
                 <p>Astro Js</p>
             </div>
+             <!--  -->
+             <!-- <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+                <p>
+                    <img class="h-3 w-3" src="https://api.iconify.design/logos:d3.svg" alt="d3 js">
+                </p>
+                <p>D3</p>
+            </div> -->
             <!--  -->
         </div>
     </div>
@@ -129,6 +143,9 @@
             </div>
             <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
                 <p>Web3.js</p>
+            </div>
+            <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+                <p>IPFS</p>
             </div>
             <!--  -->
             + Learning more...
