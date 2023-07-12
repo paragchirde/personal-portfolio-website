@@ -38,6 +38,13 @@
             </div>
             <!--  -->
             <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+                <p>
+                    <img class="h-3 w-3" src="https://api.iconify.design/skill-icons:javascript.svg" alt="javascript">
+                </p>
+                <p>JS</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
                 <p><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 32 32"><path fill="#41b883" d="M24.4 3.925H30l-14 24.15L2 3.925h10.71l3.29 5.6l3.22-5.6Z"/><path fill="#41b883" d="m2 3.925l14 24.15l14-24.15h-5.6L16 18.415L7.53 3.925Z"/><path fill="#35495e" d="M7.53 3.925L16 18.485l8.4-14.56h-5.18L16 9.525l-3.29-5.6Z"/></svg></p>
                 <p>VueJs</p>
             </div>
@@ -74,12 +81,16 @@
                 <p>Astro Js</p>
             </div>
              <!--  -->
-             <!-- <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+             <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
                 <p>
                     <img class="h-3 w-3" src="https://api.iconify.design/logos:d3.svg" alt="d3 js">
                 </p>
                 <p>D3</p>
-            </div> -->
+            </div>
+            <!--  -->
+             <div class="flex flex-row cursor-pointer items-center space-x-1 border rounded-full px-4 py-1">
+                <p>Chart JS</p>
+            </div>
             <!--  -->
         </div>
     </div>
